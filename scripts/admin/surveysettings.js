@@ -96,6 +96,9 @@ $(document).ready(function(){
 /**
  * Bind to submit event
  */
+/**
+* ayh 04-11-2016 click = clock raplace
+*/
 function PostParameterGrid()
 {
     rows= jQuery("#urlparams").jqGrid('getRowData');
