@@ -1315,6 +1315,8 @@ class database extends Survey_Common_Action
                     {
                         continue;  // this parameter name seems to be invalid - just ignore it
                     }
+                    //ayh 05-11-2016 ergens hier moet een clock => click replace komen
+                    
                     unset($aURLParam['act']);
                     unset($aURLParam['title']);
                     unset($aURLParam['id']);
